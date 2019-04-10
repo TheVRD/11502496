@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+</head>
+<body>
+                <h1>Create Product</h1>
+                <fieldset>   
+                <form action="/product/create" method="post">
+                   Product Name:<br/>
+                   <input type="text" name="name" id="name">
+                    <br/>
+                   Product Description:<br/>
+                <textarea name="description" id="description">
+
+                </textarea>               
+                <br/><br/>
+            Quantity:<br/>
+            <input type="text" name="quant" id="quant"/><br/>
+            Price:<br/>
+            <input type="text" name="price" id="price"/><br/>
+            <input type="submit" value="Save">
+            </form>
+        </fieldset> 
+
+</body>
+</html>
